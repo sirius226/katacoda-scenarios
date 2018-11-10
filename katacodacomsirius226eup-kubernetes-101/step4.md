@@ -1,4 +1,4 @@
-1. Check if service **hello** works:
+Check if service **hello** works:
 
 `kubectl get pods -n demo | grep hello`{{execute}}
 
@@ -6,20 +6,23 @@
 
 `curl http://127.0.0.1:8080/hello/sirius226`{{execute}}
 
-2. Let's see if we can find any clue from logs:
+Let's see if we can find any clue from logs:
 
 `kubectl logs -n demo <your pod name>`
 
-3. Deploy the service **name** and try again:
+Deploy the service **name** and try again:
 
 `kubectl apply -f kubernetes/services/name.yaml`{{execute}}
 
-4. Let's deploy other 2 services:
+Let's deploy other 2 services:
 
 `kubectl apply -f kubernetes/services/hello.yaml`{{execute}}
 
 `kubectl apply -f kubernetes/services/bye.yaml`{{execute}}
 
 `kubectl get services -n demo -w`{{execute}}
+
+Also we can try access the service by ClusterIP:
+`curl http://<your cluster ip for bye>/bye/sirius226`
 
 
