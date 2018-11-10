@@ -1,4 +1,3 @@
 launch.sh
-sleep 20
+sleep 30
 helm init
-helm install stable/traefik --namespace kube-system
