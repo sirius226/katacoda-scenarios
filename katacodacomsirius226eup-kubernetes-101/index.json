@@ -1,20 +1,28 @@
 {
-  "title": "Kubernetes 101 - EUP group mini-offset 2018Q4",
+  "title": "Kubernetes 101 - EUP group mini-offset 2019Q3",
   "description": "Workshop seesion for Kubernetes 101",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Clone source code repo",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Node and namespace",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Deployment and pods",
         "text": "step3.md"
-      }
+      },
+      {
+        "title": "Step 4 - Service",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 4 - Ingress",
+        "text": "step5.md"
+      },
     ],
     "intro": {
       "text": "intro.md",

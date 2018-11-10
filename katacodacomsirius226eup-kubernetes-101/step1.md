@@ -1,5 +1,7 @@
-Welcome to Kubernetes 101 workshop session!
+## Welcome to Kubernetes 101 workshop session!
 
-First, Let's clone our demo repo:
+## First, Let's clone source code repo for our demo:
 
 `git clone https://github.com/sirius226/eup-k8s-demos`{{execute}}
+
+`cd eup-k8s-demos`
