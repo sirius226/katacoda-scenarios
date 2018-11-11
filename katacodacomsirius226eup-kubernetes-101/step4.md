@@ -1,4 +1,4 @@
-Check if service **hello** works:
+Check if service **hello** working:
 
 `kubectl get pods -n demo | grep hello`{{execute}}
 
@@ -19,6 +19,8 @@ Let's deploy other 2 services:
 `kubectl apply -f kubernetes/services/hello.yaml`{{execute}}
 
 `kubectl apply -f kubernetes/services/bye.yaml`{{execute}}
+
+`kubectl apply -f kubernetes/services/auth.yaml`{{execute}}
 
 `kubectl get services -n demo -w`{{execute}}
 

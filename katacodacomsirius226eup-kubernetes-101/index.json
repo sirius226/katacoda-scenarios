@@ -20,8 +20,16 @@
         "text": "step4.md"
       },
       {
-        "title": "Step 4 - Ingress",
+        "title": "Step 5 - Ingress",
         "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Config and Secret",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Roll out/back and Scale up/down ",
+        "text": "step7.md"
       }
     ],
     "intro": {

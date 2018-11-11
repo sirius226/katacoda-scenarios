@@ -26,4 +26,6 @@ Let's deploy other 2 applications:
 
 `kubectl apply -f kubernetes/deployments/bye.yaml`{{execute}}
 
+`kubectl apply -f kubernetes/deployments/auth.yaml`{{execute}}
+
 `kubectl get deployment -n demo -w`{{execute}}
