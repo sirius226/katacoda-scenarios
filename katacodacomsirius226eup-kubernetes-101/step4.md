@@ -20,8 +20,6 @@ Let's deploy other 2 services:
 
 `kubectl apply -f kubernetes/services/bye.yaml`{{execute}}
 
-`kubectl apply -f kubernetes/services/auth.yaml`{{execute}}
-
 `kubectl get services -n demo -w`{{execute}}
 
 Also we can try access the service by ClusterIP:

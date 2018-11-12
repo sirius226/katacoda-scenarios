@@ -18,6 +18,12 @@ Base 64 decode the secret data:
 
 `echo "MTIz" | base64 -d`{{execute}}
 
+Now we can deploy deployment and service for **auth**
+
+`kubectl apply -f kubernetes/deployments/auth.yaml`{{execute}}
+
+`kubectl apply -f kubernetes/services/auth.yaml`{{execute}}
+
 ```
 curl -X POST \
   http://my.demo.com/auth \
