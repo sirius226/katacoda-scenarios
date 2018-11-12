@@ -28,8 +28,12 @@
         "text": "step6.md"
       },
       {
-        "title": "Step 7 - Roll out/back and Scale up/down ",
+        "title": "Step 7 - Roll out/back and Scale up/down",
         "text": "step7.md"
+      },
+      {
+        "title": "Step 8 - Templating with helm",
+        "text": "step9.md"
       }
     ],
     "intro": {
