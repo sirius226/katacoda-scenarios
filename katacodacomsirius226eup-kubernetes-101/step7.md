@@ -12,13 +12,13 @@ Deploy the new deployment:
 
 `kubectl get deployment name-deployment -n demo`{{execute}}
 
-`curl http://my.demo.com/hello/sirius226`{{execute}}
+`curl http://my.demo.com/hello/chen`{{execute}}
 
 Roll back to previous revision:
 
 `kubectl rollout undo deployment name-deployment -n demo --to-revision=1`{{execute}}
 
-`curl http://my.demo.com/hello/sirius226`{{execute}}
+`curl http://my.demo.com/hello/chen`{{execute}}
 
 Check what happens for the deployment:
 
